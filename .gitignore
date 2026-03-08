@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 環境ファイル
+.env
+venv/
+.venv/
+env/
+
+# DB ファイル
+*.db
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/
+
+# ビルド
+dist/
+build/
+*.egg-info/
+
+# ウォッチフォルダ内の実データは管理対象外
+watch_folder/system_a/*.xlsx
+watch_folder/system_b/*.xlsx
+watch_folder/system_a/old/
+watch_folder/system_b/old/
