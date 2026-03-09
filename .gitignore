@@ -30,4 +30,4 @@ build/
 watch_folder/system_a/*.xlsx
 watch_folder/system_b/*.xlsx
 watch_folder/system_a/old/
-watch_folder/system_b/old/
+watch_folder/system_b/old/.env

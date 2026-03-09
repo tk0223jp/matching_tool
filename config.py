@@ -9,3 +9,6 @@ class Config:
     DATABASE_PATH = os.environ.get("DATABASE_PATH", "matching_tool.db")
     WATCH_FOLDER = os.environ.get("WATCH_FOLDER", "watch_folder")
     DEBUG = os.environ.get("DEBUG", "True") == "True"
+    DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./database.db")
+
+    
